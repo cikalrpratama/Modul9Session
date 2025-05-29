@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modul9sessionproperties.DashboardController">
+   <children>
+      <Label fx:id="labelWelcome" layoutX="70.0" layoutY="30.0" prefHeight="69.0" prefWidth="185.0" text="    WELCOME TO OUR COMPANY" />
+      <Button fx:id="buttonLogout" layoutX="134.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleButtonLogoutAction" text="Log-out" />
+   </children>
+</AnchorPane>
